@@ -12,13 +12,17 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-	
-  <properties>
+  
     <sonar.projectKey>sohan-agt_FizzBuzzEnterpriseEdition</sonar.projectKey>
     <sonar.organization>sohan-agt</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
+
+  <scm>
+    <url>https://sohan-agt@github.com/sohan-agt/FizzBuzzEnterpriseEdition.git</url>
+    <connection>scm:git:https://sohan-agt@github.com/sohan-agt/FizzBuzzEnterpriseEdition.git</connection>
+  </scm>
+
 
   <dependencies>
     <dependency>
